@@ -2,6 +2,9 @@
 .gradle
 .idea
 .pem
+.ppk
 build/
 application-oauth.properties
 get-my-home.pem
+get-my-home.ppk
+putty-64bit-0.73-installer.msi

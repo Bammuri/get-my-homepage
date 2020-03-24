@@ -1,6 +1,3 @@
-before_install:
-  - chmod +x gradlew
-
 language: java
 jdk:
   - openjdk8
@@ -22,3 +19,22 @@ notifications:
   email:
     recipients:
       - shjj1504@naver.com
+
+before_install:
+  - chmod +x gradlew
+
+before_deploy:
+  - zip -r get-my-home *
+  - mkdir -p deploy
+  - mv get-my-home.zip deploy/get-my-home.zip
+
+deploy:
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
+    secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
+    bucket: get-my-home
+    region: ap-northeast-2
+    skip_cleanup: true
+    acl: private
+    local_dir: deploy
+    wait-until-deployed: true

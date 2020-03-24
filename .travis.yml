@@ -38,14 +38,13 @@ deploy:
     acl: private
     local_dir: deploy
     wait-until-deployed: true
-
   - provider: codedeploy
-      access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
-      secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
-      bucket: get-my-home
-      key: get-my-home.zip
-      bundle_type: zip
-      application: get-my-home
-      deployment_group: get-my-home-group
-      region: ap-northeast-2
-      wait-until-deployed: true
+    access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
+    secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
+    bucket: get-my-home
+    key: get-my-home.zip
+    bundle_type: zip
+    application: get-my-home
+    deployment_group: get-my-home-group
+    region: ap-northeast-2
+    wait-until-deployed: true

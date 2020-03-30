@@ -10,10 +10,10 @@ http://ec2-15-165-172-121.ap-northeast-2.compute.amazonaws.com/
     - 작성자는 수정이 불가능합니다.(readonly)
 
 ## Techset  
-language : java 8 
-framework : spring-boot 2.1.9   
-IDE : Intellij  
-build tool : gradle 4.10.2
-test framework: junit 4  
-database : H2(local), mariadb(AWS RDB)  
-others : AWS EC2, RDB(AWS), S3(AWS), GIT, Travis CI, CodeDeploy, Nginx(Reverse proxy)
+- Language : Java 8  
+- Framework : Spring-boot 2.1.9   
+- IDE : Intellij  
+- Build tool : Gradle 4.10.2
+- Test Framework : Junit 4  
+- Database : H2(local), Mariadb(AWS RDB)  
+- Others : AWS EC2, RDB(AWS), S3(AWS), GIT, Travis CI, CodeDeploy, Nginx(Reverse proxy)

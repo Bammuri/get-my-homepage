@@ -4,6 +4,10 @@
 
 http://ec2-15-165-172-121.ap-northeast-2.compute.amazonaws.com/
 
+![210808_remove](https://user-images.githubusercontent.com/28779618/110314273-fc137180-804a-11eb-9912-6ae5c05f2836.png)
+
+- 2021년 3월 8일 AWS 프리티어 종료로 배포가 중지되었습니다.
+
 - 2020년 3월 27일 VER 0.1이 개발 완료 되었습니다.
 - VER 0.1  
     - 구글, 네이버 소셜 로그인이 가능합니다.(chrome에서 접속 권장)

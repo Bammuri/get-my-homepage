@@ -1,8 +1,11 @@
 # get-my-home ver 0.1 
 방명록 웹서비스 프로젝트
+    
 ![tutorial](https://user-images.githubusercontent.com/28779618/77906987-d969cc00-72c3-11ea-834c-cd886d8f7cb9.gif)
 
+   
 http://ec2-15-165-172-121.ap-northeast-2.compute.amazonaws.com/
+  
 
 ![210808_remove](https://user-images.githubusercontent.com/28779618/110314273-fc137180-804a-11eb-9912-6ae5c05f2836.png)
 
